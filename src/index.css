@@ -1,12 +1,45 @@
-@import url('https://fonts.cdnfonts.com/css/satoshi');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/font/Satoshi-Variable.woff2'),
+    url('./assets/font/Satoshi-Variable.woff');
+}
+
 
 
 @layer base {
   body {
     @apply font-satoshi overflow-x-hidden antialiased
   }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .sectiongrad {
+    background: linear-gradient(180deg, #D8B4FE -43.9%, rgba(216, 180, 254, 0.00) 172.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
 }
