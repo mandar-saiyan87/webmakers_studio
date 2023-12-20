@@ -16,6 +16,7 @@ function Carousel() {
     speed: 5000,
     autoplaySpeed: 5000,
     pauseOnHover: true,
+    arrows: false,
     cssEase: "linear",
     responsive: [
       {
@@ -34,12 +35,20 @@ function Carousel() {
           infinite: true,
         }
       },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
     ]
   };
 
   return (
     <div className='w-full'>
-      <Slider {...settings} >
+      <Slider {...settings}>
         {carouselimg.map((image, index) => {
           return (
             <div className='p-4' key={index}>
