@@ -16,7 +16,25 @@ function Carousel() {
     speed: 5000,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    cssEase: "linear"
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+    ]
   };
 
   return (
@@ -25,7 +43,7 @@ function Carousel() {
         {carouselimg.map((image, index) => {
           return (
             <div className='p-4' key={index}>
-              <img src={image} alt={image} className='object-contain aspect-square'/>
+              <img src={image} alt={image} className='object-contain aspect-square' />
             </div>
           )
         })}

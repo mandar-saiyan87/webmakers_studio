@@ -1,5 +1,5 @@
 import React from 'react'
-import { landingImages } from '../../../assets/images/LandingImages'
+import { landingImages } from '../../../../assets/images/LandingImages'
 
 function Section5() {
   return (

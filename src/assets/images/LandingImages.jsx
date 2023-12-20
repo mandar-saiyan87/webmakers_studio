@@ -32,5 +32,5 @@ export const landingImages = {
   mainbg, mainbg2, adobe, amazon, slack, spotify, zapier, zoom,
   carousel1, carousel2, carousel3, carousel4, carousel5, companylogo,
   Avatar, pricingbg, charmcircletick, charmcircletickdisable, charmcircletickblack,
-  pluscircle, minuscircle, twitter, facebook, github, Socialicon1, Socialicon2, BGfooter
+  pluscircle, minuscircle, twitter, facebook, github, Socialicon1, Socialicon2, BGfooter, linkdn
 }

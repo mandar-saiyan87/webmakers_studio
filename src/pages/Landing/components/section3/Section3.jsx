@@ -3,7 +3,7 @@ import React from 'react'
 function Section3() {
   return (
     <>
-      <div className='flex flex-col items-center justify-center max-w-[90%] m-auto my-12 py-12 px-10 rounded-3xl border-[1px] border-[#E5E7EB] shadow-xl shadow-[rgba(28, 25, 23, 0.05)]'>
+      <div className='hidden lg:flex flex-col items-center justify-center max-w-[90%] m-auto my-12 py-12 px-10 rounded-3xl border-[1px] border-[#E5E7EB] shadow-xl shadow-[rgba(28, 25, 23, 0.05)]'>
         <h3 className='text-5xl text-[#1F2937] font-bold text-center'>How it works</h3>
         <p className='my-4 font-medium text-xl text-[#4B5563]'>Premium designs, unlimited requests, super fast delivery, for one flat monthly fee.</p>
         <div className='w-full mt-5 grid grid-cols-3 place-items-center'>
