@@ -7,7 +7,7 @@ function TestimonialTile() {
       <div className='py-24 px-[90px]'>
         <div className='flex flex-col items-center justify-center text-center px-14'>
           <img src={landingImages.companylogo} alt={landingImages.companylogo} />
-          <p className='text-5xl font-bold my-10'>We’ve been with unicraft to kick start every new project and can’t imagine working without it.</p>
+          <p className='text-base font-bold my-10 lg:text-5xl'>We’ve been with unicraft to kick start every new project and can’t imagine working without it.</p>
         </div>
         <div className='w-full flex flex-col items-center justify-center mt-2'>
           <img src={landingImages.Avatar} alt={landingImages.Avatar} />
