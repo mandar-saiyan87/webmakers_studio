@@ -17,7 +17,7 @@ function Section1() {
             <button className='text-xl text-[#F9FAFB] py-4 px-[34px] rounded-lg bg-[#1F2937] font-bold my-3 shadow-[inset_2px_4px_10px_0px_rgba(203, 203, 203, 0.20)] active:opacity-80'>View Pricing</button>
             <div className='my-28'>
               <p className='text-sm text-[#9CA3AF] font-medium'>Trusted By 250+ Companies</p>
-              <div className='grid mt-4 grid-cols-1 place-items-center md:grid-cols-3 lg:grid-cols-6'>
+              <div className='grid mt-4 grid-cols-1 place-items-center sm:grid-cols-3 lg:grid-cols-6'>
                 {trusted_comp.map(image => {
                   return (
                     <div className='flex items-center justify-center'>

@@ -10,8 +10,8 @@ function Section5() {
       </div>
       <div className='m-auto flex items-center justify-center'>
         <div className='max-w-6xl my-12 place-items-center grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-x-0 sm:gap-y-5 lg:grid-cols-3 lg:gap-3' >
-          <div className='w-full flex items-center justify-center px-2'>
-            <div className='py-10 px-3 border-[1px] border-[#E5E7EB] rounded-2xl bg-[#FFF] md:max-w-[95%] md:px-6'>
+          <div className='w-full flex items-center justify-center px-2 md:px-0'>
+            <div className='py-10 px-3 border-[1px] border-[#E5E7EB] rounded-2xl bg-[#FFF] md:max-w-[95%] md:px-3 xl:px-6'>
               <h5 className='text-base font-bold text-[#191D23]'>Freebie</h5>
               <p className='text-sm font-medium text-[#6B7280] my-3 w-full md:max-w-[80%]'>Ideal for individuals who need quick access to basic features.</p>
               <div className='flex items-center gap-2 my-6'>
@@ -55,8 +55,8 @@ function Section5() {
               </div>
             </div>
           </div>
-          <div className='w-full flex items-center justify-center px-2'>
-            <div className='py-10 px-3 border-[1px] rounded-xl bg-[#1F2937] shadow-xl shadow-[rgba(31, 41, 55, 0.20)] md:max-w-[95%] md:px-6'>
+          <div className='w-full flex items-center justify-center px-2 md:px-0'>
+            <div className='py-10 px-3 border-[1px] rounded-xl bg-[#1F2937] shadow-xl shadow-[rgba(31, 41, 55, 0.20)] md:max-w-[95%] md:px-3 xl:px-6'>
               <h5 className='text-base font-bold text-[#FFF]'>Professional</h5>
               <p className='text-sm font-medium text-[#FFF] my-3 w-full md:max-w-[95%]'>Ideal for individuals who who need advanced features and tools for client work.</p>
               <div className='flex items-center gap-2 my-6'>
@@ -100,8 +100,8 @@ function Section5() {
               </div>
             </div>
           </div>
-          <div className='w-full flex items-center justify-center px-2 sm:col-span-2 sm:w-[50%] lg:col-span-1 lg:w-full'>
-            <div className='py-10 px-3 border-[1px] border-[#E5E7EB] rounded-2xl bg-[#FFF] md:max-w-[95%] md:px-6'>
+          <div className='w-full flex items-center justify-center px-2 sm:col-span-2 sm:w-[50%] md:px-0 lg:col-span-1 lg:w-full'>
+            <div className='py-10 px-3 border-[1px] border-[#E5E7EB] rounded-2xl bg-[#FFF] md:max-w-[95%] md:px-3 xl:px-6'>
               <h5 className='text-base font-bold text-[#191D23]'>Enterprise</h5>
               <p className='text-sm font-medium text-[#6B7280] my-3 w-full md:max-w-[95%]'>Ideal for businesses who need personalized services and security for large teams. </p>
               <div className='flex items-center gap-2 my-6'>

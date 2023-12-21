@@ -5,7 +5,7 @@ function Section7() {
   return (
     <>
       <div className='bg-cover bg-no-repeat h-auto m-auto' style={{ backgroundImage: `url(${landingImages.BGfooter})` }}>
-        <div className='max-w-7xl m-auto px-4 lg:px-0'>
+        <div className='max-w-7xl m-auto px-4'>
           <div className='flex flex-col items-center justify-center text-center border-b-[1px] border-[#D1D5DB] pt-28 pb-16'>
             <p className='text-[42px] font-black text-[#101828] lg:text-7xl'>No long-term contracts.</p>
             <p className='text-[42px] font-black text-[#101828] mt-3 lg:text-7xl'>No catches. Simple.</p>
