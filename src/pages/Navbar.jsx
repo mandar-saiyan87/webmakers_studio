@@ -36,7 +36,7 @@ function Navbar() {
         
       </div>
       <div className={showNav ? `fixed w-full h-screen top-0 left-0 bg-black/30 z-30 lg:hidden` : ''} onClick={() => setShownav(false)}>
-        <div className={showNav ? `fixed top-0 left-0 bg-white w-[70%] h-screen ease-in duration-500 overflow-y-scroll no-scrollbar sm:w-[40%]` : 'fixed top-0 -left-[100%] duration-500'} onClick={(e) => e.stopPropagation()}>
+        <div className={showNav ? `fixed top-0 left-0 bg-white w-[70%] h-auto ease-in duration-500 overflow-y-scroll no-scrollbar sm:w-[40%]` : 'fixed top-0 -left-[100%] duration-500'} onClick={(e) => e.stopPropagation()}>
           <div className='h-full'>
             <div className='py-3 px-2'>
               <h2 className='font-bold text-[#374151] text-lg'>UniCraft</h2>
