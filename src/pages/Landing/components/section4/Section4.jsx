@@ -18,6 +18,7 @@ function Section4() {
   return (
     <>
       <Slider {...settings} className='w-full bg-[#F9FAFB] my-28'>
+        {/* Testimonial Card from widget */}
         <TestimonialTile />
         <TestimonialTile />
         <TestimonialTile />

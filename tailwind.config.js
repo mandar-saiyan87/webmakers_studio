@@ -6,6 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        // Satoshi font added to tailwind
         'satoshi': ['Satoshi', 'sans-serif']
       }
     },

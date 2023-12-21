@@ -25,6 +25,7 @@ function Navbar() {
         </ul>
         <button className='text-lg text-[#4B5563] border-[1px] border-[#4B5563] py-3 px-[34px] rounded-lg font-bold active:opacity-40'>Contact us</button>
       </div>
+
       {/* Tablet & Mobile Navbar */}
       <div className='flex max-w-[1536px] m-auto items-center justify-between py-4 px-6 relative lg:hidden'>
         <h2 className='font-bold text-[#374151] text-xl'>UniCraft</h2>

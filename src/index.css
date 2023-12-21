@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Satoshi fotn from file */
 @font-face {
   font-family: 'Satoshi';
   src: url('./assets/font/Satoshi-Variable.woff2'),
