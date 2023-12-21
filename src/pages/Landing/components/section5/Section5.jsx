@@ -9,11 +9,11 @@ function Section5() {
         <p className='text-base font-medium text-[#6B7280] max-w-xl text-center mt-5 lg:text-lg'>Plain is made for your entire company. Only pay for users that actually message customers. Everyone else is free, forever.</p>
       </div>
       <div className='m-auto flex items-center justify-center'>
-        <div className='max-w-6xl my-12 place-items-center grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-x-0 md:gap-y-5 lg:grid-cols-3 lg:gap-3' >
-          <div className='w-full flex items-center justify-center'>
-            <div className='max-w-[95%] py-10 px-6 border-[1px] border-[#E5E7EB] rounded-2xl bg-[#FFF]'>
+        <div className='max-w-6xl my-12 place-items-center grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-x-0 sm:gap-y-5 lg:grid-cols-3 lg:gap-3' >
+          <div className='w-full flex items-center justify-center px-2'>
+            <div className='py-10 px-3 border-[1px] border-[#E5E7EB] rounded-2xl bg-[#FFF] md:max-w-[95%] md:px-6'>
               <h5 className='text-base font-bold text-[#191D23]'>Freebie</h5>
-              <p className='text-sm font-medium text-[#6B7280] max-w-[80%] my-3'>Ideal for individuals who need quick access to basic features.</p>
+              <p className='text-sm font-medium text-[#6B7280] my-3 w-full md:max-w-[80%]'>Ideal for individuals who need quick access to basic features.</p>
               <div className='flex items-center gap-2 my-6'>
                 <p className='text-[#1F2937] text-5xl font-medium'>$0</p>
                 <span className='text-[#4B5563] text-base font-normal'>/ Month</span>
@@ -55,10 +55,10 @@ function Section5() {
               </div>
             </div>
           </div>
-          <div className='w-full flex items-center justify-center'>
-            <div className='max-w-[95%] py-10 px-6 border-[1px] rounded-xl bg-[#1F2937] shadow-xl shadow-[rgba(31, 41, 55, 0.20)]'>
+          <div className='w-full flex items-center justify-center px-2'>
+            <div className='py-10 px-3 border-[1px] rounded-xl bg-[#1F2937] shadow-xl shadow-[rgba(31, 41, 55, 0.20)] md:max-w-[95%] md:px-6'>
               <h5 className='text-base font-bold text-[#FFF]'>Professional</h5>
-              <p className='text-sm font-medium text-[#FFF] my-3 max-w-[95%]'>Ideal for individuals who who need advanced features and tools for client work.</p>
+              <p className='text-sm font-medium text-[#FFF] my-3 w-full md:max-w-[95%]'>Ideal for individuals who who need advanced features and tools for client work.</p>
               <div className='flex items-center gap-2 my-6'>
                 <p className='text-[#FFF] text-5xl font-medium'>$25</p>
                 <span className='text-[#FFF] text-base font-normal'>/ Month</span>
@@ -100,10 +100,10 @@ function Section5() {
               </div>
             </div>
           </div>
-          <div className='w-full flex items-center justify-center md:col-span-2 md:w-[50%] lg:col-span-1 lg:w-full'>
-            <div className='max-w-[95%] py-10 px-6 border-[1px] border-[#E5E7EB] rounded-2xl bg-[#FFF]'>
+          <div className='w-full flex items-center justify-center px-2 sm:col-span-2 sm:w-[50%] lg:col-span-1 lg:w-full'>
+            <div className='py-10 px-3 border-[1px] border-[#E5E7EB] rounded-2xl bg-[#FFF] md:max-w-[95%] md:px-6'>
               <h5 className='text-base font-bold text-[#191D23]'>Enterprise</h5>
-              <p className='text-sm font-medium text-[#6B7280] my-3 max-w-[95%]'>Ideal for businesses who need personalized services and security for large teams. </p>
+              <p className='text-sm font-medium text-[#6B7280] my-3 w-full md:max-w-[95%]'>Ideal for businesses who need personalized services and security for large teams. </p>
               <div className='flex items-center gap-2 my-6'>
                 <p className='text-[#1F2937] text-5xl font-medium'>$100</p>
                 <span className='text-[#4B5563] text-base font-normal'>/ Month</span>

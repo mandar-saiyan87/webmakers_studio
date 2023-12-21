@@ -11,7 +11,7 @@ function Section6() {
           <h2 className='text-[42px] font-bold lg:text-[58px]'>Frequently asked questions</h2>
           <p className='text-base font-medium text-[#6B7280] max-w-xl text-center mt-5 lg:text-xl'>Everything you need to know about the product and billing.</p>
         </div>
-        <div className='px-2 my-16 md:px-0'>
+        <div className='px-4 my-16 lg:px-0'>
           <FAQ qsn={"Is there a free trial available?"}
             asn={"Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible"} />
           <FAQ qsn={"Can I change my plan later?"}
