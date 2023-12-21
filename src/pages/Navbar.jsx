@@ -33,10 +33,10 @@ function Navbar() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </div>
-        
+
       </div>
       <div className={showNav ? `fixed w-full h-screen top-0 left-0 bg-black/30 z-30 lg:hidden` : ''} onClick={() => setShownav(false)}>
-        <div className={showNav ? `fixed top-0 left-0 bg-white w-[70%] h-auto ease-in duration-500 overflow-y-scroll no-scrollbar sm:w-[40%]` : 'fixed top-0 -left-[100%] duration-500'} onClick={(e) => e.stopPropagation()}>
+        <div className={showNav ? `fixed top-0 left-0 bg-white w-[70%] h-screen ease-in duration-500 overflow-y-scroll no-scrollbar sm:w-[40%]` : 'fixed top-0 -left-[100%] duration-500'} onClick={(e) => e.stopPropagation()}>
           <div className='h-full'>
             <div className='py-3 px-2'>
               <h2 className='font-bold text-[#374151] text-lg'>UniCraft</h2>
@@ -47,7 +47,7 @@ function Navbar() {
                 <li className={tab === 'tab2' ? 'text-lg text-white bg-black py-2 px-4 font-medium cursor-pointer rounded-lg' : 'text-lg text-[#374151] font-medium cursor-pointer active:opacity-40'} onClick={() => { setTab('tab2'), setShownav(false) }}>Pricing</li>
                 <li className={tab === 'tab3' ? 'text-lg text-white bg-black py-2 px-4 font-medium cursor-pointer rounded-lg' : 'text-lg text-[#374151] font-medium cursor-pointer active:opacity-40'} onClick={() => { setTab('tab3'), setShownav(false) }}>FAQ</li>
               </ul>
-              <button className='text-base text-[#4B5563] border-[1px] border-[#4B5563] mb-10 py-2 px-6 rounded-lg font-semibold active:opacity-40' onClick={() => { setShownav(false) }}>Contact us</button>
+              <button className='text-base text-[#4B5563] border-[1px] border-[#4B5563] mb-auto py-2 px-6 rounded-lg font-semibold active:opacity-40' onClick={() => { setShownav(false) }}>Contact us</button>
             </div>
           </div>
         </div>
