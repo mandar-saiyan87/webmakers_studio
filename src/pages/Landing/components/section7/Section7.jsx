@@ -20,13 +20,13 @@ function Section7() {
             </div>
             <div className='flex items-center justify-between mt-7'>
               <p className='text-base font-normal text-[#98A2B3] w-[50%] md:w-full'>© 2077 Untitled UI. All rights reserved.</p>
-              <div className='grid grid-cols-3 gap-x-7 gap-y-4 sm:grid-cols-6 sm:gap-x-6 sm:gap-y-0'>
-                <img src={landingImages.twitter} alt={landingImages.twitter} className='w-5'/>
-                <img src={landingImages.linkdn} alt={landingImages.linkdn} className='w-5'/>
-                <img src={landingImages.facebook} alt={landingImages.facebook} className='w-5'/>
-                <img src={landingImages.github} alt={landingImages.github} className='w-5' />
-                <img src={landingImages.Socialicon1} alt={landingImages.Socialicon1} className='w-5'/>
-                <img src={landingImages.Socialicon2} alt={landingImages.Socialicon2} className='w-5'/>
+              <div className='grid grid-cols-3 gap-x-7 gap-y-4  sm:grid-cols-6 sm:gap-x-6 sm:gap-y-0'>
+                <img src={landingImages.twitter} alt={landingImages.twitter} className='w-5 cursor-pointer md:w-8' />
+                <img src={landingImages.linkdn} alt={landingImages.linkdn} className='w-5 cursor-pointer md:w-8' />
+                <img src={landingImages.facebook} alt={landingImages.facebook} className='w-5 cursor-pointer md:w-8' />
+                <img src={landingImages.github} alt={landingImages.github} className='w-5 cursor-pointer md:w-8' />
+                <img src={landingImages.Socialicon1} alt={landingImages.Socialicon1} className='w-5 cursor-pointer md:w-8' />
+                <img src={landingImages.Socialicon2} alt={landingImages.Socialicon2} className='w-5 cursor-pointer md:w-8' />
               </div>
             </div>
 
