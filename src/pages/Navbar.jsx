@@ -47,7 +47,7 @@ function Navbar() {
                 <li className={tab === 'tab2' ? 'text-lg text-white bg-black py-2 px-4 font-medium cursor-pointer rounded-lg' : 'text-lg text-[#374151] font-medium cursor-pointer active:opacity-40'} onClick={() => { setTab('tab2'), setShownav(false) }}>Pricing</li>
                 <li className={tab === 'tab3' ? 'text-lg text-white bg-black py-2 px-4 font-medium cursor-pointer rounded-lg' : 'text-lg text-[#374151] font-medium cursor-pointer active:opacity-40'} onClick={() => { setTab('tab3'), setShownav(false) }}>FAQ</li>
               </ul>
-              <button className='text-base text-[#4B5563] border-[1px] border-[#4B5563] mb-auto py-2 px-6 rounded-lg font-semibold active:opacity-40' onClick={() => { setShownav(false) }}>Contact us</button>
+              <button className='text-base text-[#4B5563] border-[1px] border-[#4B5563] mb-20 py-2 px-6 rounded-lg font-semibold active:opacity-40' onClick={() => { setShownav(false) }}>Contact us</button>
             </div>
           </div>
         </div>
